@@ -1,79 +1,171 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.section-area{
+
+.section-area {
     width: 100%;
     height: 100vh;
     margin-bottom: 100px;
 }
-.plans-area{
-    
-    height: 500px;
-    
+
+.plans-area {
+    height: 250px;
+    margin-bottom: 100px;
 }
-h2{
+
+h2 {
     text-align: center;
     margin-bottom: 100px;
 }
-.banner-container{
-   
+
+.banner-container {
+
     background-image: url(images/banner/banner1.png);
     display: flex;
     justify-content: right;
     text-align: right;
-    
+
 }
-.banner-ditails{
+
+.banner-ditails {
     margin-top: 200px;
     margin-right: 150px;
     margin-left: 80px;
 }
-.para-banner{
+
+.para-banner {
     margin-left: 600px;
     color: #444343;
     font-size: 16px;
 }
-.title-banner{
-    color:#151414;
+
+.title-banner {
+    color: #151414;
     font-size: 65px;
     font-weight: bold;
 }
-.button{
+
+.button {
     margin-top: 15px;
 }
-.btn-discover{
+
+.btn-discover {
     padding: 15px 35px;
     font-weight: 600;
     font-size: 20px;
     text-align: right;
     color: #ffffff;
     background-color: #F15B22;
+    border-radius: 10px;
 }
-.failures-area{
+
+.failures-area {
     display: flex;
 }
 
-.details-sec{
+.details-sec {
     margin-top: 250px;
     margin-right: 150px;
     margin-left: 80px;
-    
+
 }
-.head-details{
+
+.head-details {
     margin-bottom: 20px;
     font-weight: 600;
     font-size: 50px;
 }
-.p-details{
+
+.p-details {
     margin-bottom: 10px;
 }
-.p-item{
+
+.p-item {
     margin-bottom: 5px;
 }
-.plans{
+
+.plans {
     display: flex;
     justify-content: space-around;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.mindset-head {
+    margin-bottom: 15px;
+}
+
+.mindset-btn {
+    width: 120px;
+    height: 50px;
+    color: #F15B22;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.mindset-area {
+    height: 250px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-image: linear-gradient(108.5deg, rgba(231, 69, 54, 0.52) 11.2%, rgba(255, 181, 17, 0.52) 68%), url(images/watch.png);
+    display: flex;
+}
+
+.mindset-details {
+    margin-top: 80px;
+    margin-left: 20px;
+    justify-content: left;
+    text-align: left;
+}
+
+.footer-area {
+    height: 400px;
+    width: 100%;
+    background-color: #151414;
+    color: #ffffff;
+    display: flex;
+}
+
+.footer-details-1 {
+    margin-left: 100px;
+    margin-right: 500px;
+    margin-top: 100px;
+}
+
+.footer-img {
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.footer-sub {
+    margin-top: 100px;
+    margin-right: 200px;
+}
+
+.sub-footer {
+    margin-bottom: 20px;
+}
+
+.input-sub {
+    margin-bottom: 15px;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #000000;
+    padding-left: 10px;
+}
+
+.btn-footer {
+    width: 120px;
+    height: 50px;
+    color: #F15B22;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.footer-img-size {
+    margin-right: 10px;
 }
